@@ -45,13 +45,14 @@ body{
     text-align: center;
     border-radius: 10%;
     overflow: hidden;
+    margin: 10px;
 }
 
 .card-game img{
     width: 100%;
 }
 
-.card-game:hover{
+/* .card-game:hover{
     border: solid 4px var(--primary-color);
     box-shadow: 5px 2px 10px var(--primary-color);
-}
+} */
