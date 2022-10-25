@@ -21,7 +21,17 @@ body{
 }
 
 .button{
-    width: 256px;
+    width: 252px;
+    height: 30px;
+    margin: 20px 0px;
+    background-color: #6969696f;
+    border-right: solid 4px var(--primary-color);
+    border-radius: 0px 4px 4px 0px;
+}
+.divider{
+    height: 1px;
+    background-color: #696969;
+    margin: 20px;
 }
 
 .content{
@@ -33,7 +43,7 @@ body{
     height: 100%;
     display: flex;
     flex-flow: row wrap;
-    gap: 40px 40px;
+    gap: 10px 10px;
     justify-content: center;
     align-content: center;
 }
@@ -45,7 +55,6 @@ body{
     text-align: center;
     border-radius: 10%;
     overflow: hidden;
-    margin: 10px;
 }
 
 .card-game img{
